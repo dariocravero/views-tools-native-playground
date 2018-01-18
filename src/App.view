@@ -1,0 +1,9 @@
+App Vertical
+alignItems center
+flex 1
+justifyContent center
+Hyperlink
+color blue
+Text
+fontSize 18
+text Hello https://views.tools :)!
