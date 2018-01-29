@@ -2,8 +2,20 @@ App Vertical
 alignItems center
 flex 1
 justifyContent center
+Button Vertical
+onClick props
+Text
+text click me
+
 Hyperlink
 color blue
 Text
 fontSize 18
 text Hello https://views.tools :)!
+
+Value CaptureTextArea
+border 1px solid black
+height 200
+width 200
+padding 10
+value hey ho this is supposed to go to a new line and blah blah

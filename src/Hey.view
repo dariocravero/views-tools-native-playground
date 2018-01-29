@@ -1,0 +1,12 @@
+Hey Text
+color #323232
+fontFamily Montserrat
+fontSize 18
+fontWeight 400
+text Type something...
+when props.isOn
+color red
+fontSize 28
+
+FakeProps
+isOn true

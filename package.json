@@ -17,7 +17,7 @@
     "ios": "concurrently \"npm run dev:ios\" \"npm run views\"",
     "test": "node node_modules/jest/bin/jest.js --watch",
     "dev": "react-native-scripts start",
-    "views": "views-morph src --watch --as react-native",
+    "views": "views-morph src --watch --as react-native --track",
     "dev:ios": "react-native-scripts ios",
     "dev:android": "react-native-scripts android"
   },
@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "expo": "^23.0.4",
+    "expo-analytics": "^1.0.6",
     "react": "16.0.0",
     "react-native": "0.50.3",
     "react-native-hyperlink": "^0.0.12",
